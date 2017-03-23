@@ -1,10 +1,9 @@
 /**
  *用js实现version compare函数及测试用例 
- *目标：做成库给外部开发者用，对任意软件的版本号做比较 
- *调用 versionCompare(v1,v2)比较其大小关系。
+ *目标：做成库给外部开发者用，对任意软件的版本号做比较
  *
- * 
  */
+
 //v1比较新时返回1,v1和v2相同是返回0,v2比较新时返回-1;
 function versionCompare(v1, v2) {
     var arr1 = v1.toLowerCase().split('.');
